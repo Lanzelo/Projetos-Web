@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.insta-wrapper {
+	display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone img {
+    height: 30rem;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+	width: 40%;
+	min-height: 40rem;
+}
+
+.group{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 1rem 0;
+	border: 1px solid lightgrey;
+}
+
+.group:nth-child(1){
+	min-height: 26rem;
+}
+
+.instahero-logo {
+	height: 5rem;
+}
+
+.profile-photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-photo img{
+	height: 8rem;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.insta-login {
+	background-color: rgb(239, 94, 112);
+	font-weight: bold;
+	color: white;
+	margin: 5px;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.insta-logout {
+	color: rgb(239, 94, 112);
+	font-weight: bold;
+}
+
+.link-blue {
+	color: rgb(239, 94, 112);
+	font-weight: bold;
+}
+
+.get-the-app {
+	font-weight: bold;
+	margin-top: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%
+}
+
+.download img {
+	margin-top: 2px;
+	max-height: 60px;
+}
